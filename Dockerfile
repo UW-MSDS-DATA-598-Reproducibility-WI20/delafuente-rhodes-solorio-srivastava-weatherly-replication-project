@@ -2,7 +2,7 @@
 FROM rocker/verse:3.6.2
 
 # required
-MAINTAINER Maggie Weatherly mweath@uw.edu
+MAINTAINER Maggie Weatherly <mweath@uw.edu>
 
 COPY . /delafuente-rhodes-solorio-srivastava-weatherly-replication-project
 
