@@ -2,7 +2,7 @@ Type: compendium
 Package: compendium 
 Title: Research Replication: Political Fake News Characterization Using Twitter
 Version: 0.0.1
-Authors@R: 
+Authors@R:
     person(given="Maggie",
             family="Weatherly",
             role=c("aut","cre"),
@@ -28,13 +28,13 @@ Authors@R:
             role=c("aut","cre"),
             email="anmols@uw.edu"
             comment=c(ORCID="0000-0002-9553-3904")),
-Description: 
+Description:
             This project aims to reproduce key figures, statistics, tables, and results from the research paper titled:
             "Characterizing Political Fake News in Twitter by its Meta-Data". 
             This was done via R and RMarkdown in RStudio. 
             This compendium hosts all relevant data, code, and replication outputs. 
 License: MIT + file LICENSE
-Depends: 
+Depends:
     ggpubr,
     dplyr,
     ggplot2,
@@ -45,3 +45,7 @@ Depends:
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
+Imports: bookdown,
+    here
+Suggests: devtools,
+    git2r
