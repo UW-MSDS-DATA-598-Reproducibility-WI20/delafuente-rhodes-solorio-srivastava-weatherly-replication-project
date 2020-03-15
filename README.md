@@ -3,7 +3,7 @@
 <!-- badges: start -->
 ![Build Docker Container](https://github.com/UW-MSDS-DATA-598-Reproducibility-WI20/delafuente-rhodes-solorio-srivastava-weatherly-replication-project/workflows/Build-Docker-Container/badge.svg)
 [![Launch Rstudio Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/UW-MSDS-DATA-598-Reproducibility-WI20/delafuente-rhodes-solorio-srivastava-weatherly-replication-project/master?urlpath=rstudio)
-[![DOI](https://img.shields.io/badge/OSF-DOI%3A%2010.17605%2FOSF.IO%2FXXXX-brightgreen)](https://doi.org/10.17605/OSF.IO/ADXSR)
+[![DOI](https://img.shields.io/badge/OSF-10.17605%OSF.IO%DH7F8-brightgreen)](https://doi.org/10.17605/OSF.IO/ADXSR)
 <!-- badges: end -->
 
 The goal of this repo is to complete a professional, publication-worthy replication of a notable scientific paper. This is part of UW's Data Science Master's Program, DATA 598 - Reproducibility for Data Science
