@@ -45,34 +45,6 @@ Depends:
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
-Imports:  
-    Rcpp_1.0.3,
-    bookdown_0.18,
-    tufte_0.5,
-    here_0.1,
-    clisymbols_1.2.0,
-    crayon_1.3.4,
-    digest_0.6.25,
-    rprojroot_1.3-2,
-    bitops_1.0-6,
-    backports_1.1.5,
-    git2r_0.26.1,
-    evaluate_0.14,
-    rlang_0.4.5,
-    curl_4.3,
-    fs_1.3.1,
-    rstudioapi_0.11,
-    rmarkdown_2.1,
-    tools_3.6.3,     
-    glue_1.3.1,
-    RCurl_1.98-1.1,
-    xfun_0.12,
-    yaml_2.2.1,
-    compiler_3.6.3,
-    htmltools_0.4.0,
-    knitr_1.28,
-    usethis_1.5.1,
-    rrtools_0.1.0
 Suggests: 
     devtools,
     git2r
