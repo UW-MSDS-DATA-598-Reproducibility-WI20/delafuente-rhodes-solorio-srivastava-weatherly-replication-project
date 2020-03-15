@@ -6,27 +6,27 @@ Authors@R:
     person(given="Maggie",
             family="Weatherly",
             role=c("aut","cre"),
-            email="mweath@uw.edu"
+            email="mweath@uw.edu",
             comment=c(ORCID="0000-0003-3682-8216")),
     person(given="Matthew",
             family="Rhodes",
             role=c("aut","cre"),
-            email="mrr313@uw.edu"
+            email="mrr313@uw.edu",
             comment=c(ORCID="0000-0002-4400-7111")),
     person(given="Juan",
             family="Solorio",
             role=c("aut","cre"),
-            email="juansolo@uw.edu"
+            email="juansolo@uw.edu",
             comment=c(ORCID="0000-0003-3833-9459")),
     person(given="Andy",
             family="De La Fuente",
             role=c("aut","cre"),
-            email="andy0@uw.edu"
+            email="andy0@uw.edu",
             comment=c(ORCID="0000-0003-4148-8690")),
     person(given="Anmol",
             family="Srivastava",
             role=c("aut","cre"),
-            email="anmols@uw.edu"
+            email="anmols@uw.edu",
             comment=c(ORCID="0000-0002-9553-3904")),
 Description:
             This project aims to reproduce key figures, statistics, tables, and results from the research paper titled:
