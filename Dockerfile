@@ -1,5 +1,5 @@
 # get the base image, the rocker/verse has R, RStudio and pandoc
-FROM rocker/geospatial:3.6.1
+FROM rocker/verse:3.6.2
 
 # required
 MAINTAINER Maggie Weatherly mweath@uw.edu
@@ -16,5 +16,5 @@ RUN . /etc/environment \
   && R -e "devtools::install('/delafuente-rhodes-solorio-srivastava-weatherly-replication-project', dep=TRUE)" \
   # render the manuscript into a docx, you'll need to edit this if you've
   # customised the location and name of your main Rmd file
-  && R -e "devtools::check('/delafuente-rhodes-solorio-srivastava-weatherly-replication-project/')" \
-  && R -e "rmarkdown::render('/delafuente-rhodes-solorio-srivastava-weatherly-replication-project/analysis/paper.Rmd')"
+  && R -e "devtools::check('/delafuente-rhodes-solorio-srivastava-weatherly-replication-project/')"
+  # && R -e "rmarkdown::render('/delafuente-rhodes-solorio-srivastava-weatherly-replication-project/analysis/paper.Rmd')"
