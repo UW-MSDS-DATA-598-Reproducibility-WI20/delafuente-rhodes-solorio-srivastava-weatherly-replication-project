@@ -1,7 +1,5 @@
 on: [push, pull_request]
 
-name: delafuente-rhodes-solorio-srivastava-weatherly-replication-project
-
 jobs:
   build:
     runs-on: ubuntu-latest
