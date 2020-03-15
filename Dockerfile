@@ -16,4 +16,4 @@ RUN . /etc/environment \
   && R -e "devtools::install('/delafuente-rhodes-solorio-srivastava-weatherly-replication-project', dep=TRUE)"
   # render the manuscript into a docx, you'll need to edit this if you've
   # customised the location and name of your main Rmd file
-  # && R -e "rmarkdown::render('/delafuente-rhodes-solorio-srivastava-weatherly-replication-project/analysis/paper.Rmd')"
+  && R -e "rmarkdown::render('/delafuente-rhodes-solorio-srivastava-weatherly-replication-project/analysis/paper.Rmd')"
