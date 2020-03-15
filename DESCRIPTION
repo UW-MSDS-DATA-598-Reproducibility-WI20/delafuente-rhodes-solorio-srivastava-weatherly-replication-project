@@ -1,6 +1,6 @@
 Type: compendium
 Package: compendium 
-Title: What the Package Does (One Line, Title Case)
+Title: Research Replication: Political Fake News Characterization Using Twitter
 Version: 0.0.1
 Authors@R: 
     person(given="Maggie",
@@ -28,7 +28,11 @@ Authors@R:
             role=c("aut","cre"),
             email="anmols@uw.edu"
             comment=c(ORCID="0000-0002-9553-3904")),
-Description: Compendium description
+Description: 
+            This project aims to reproduce key figures, statistics, tables, and results from the research paper titled:
+            "Characterizing Political Fake News in Twitter by its Meta-Data". 
+            This was done via R and RMarkdown in RStudio. 
+            This compendium hosts all relevant data, code, and replication outputs. 
 License: MIT + file LICENSE
 Depends: 
     ggpubr,
