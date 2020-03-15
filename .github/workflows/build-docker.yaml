@@ -1,6 +1,6 @@
 on: [push, pull_request]
 
-name: Build-Docker-Container
+name: delafuente-rhodes-solorio-srivastava-weatherly-replication-project
 
 jobs:
   build:
