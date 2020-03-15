@@ -34,7 +34,10 @@ Description:
             This was done via R and RMarkdown in RStudio. 
             This compendium hosts all relevant data, code, and replication outputs. 
 License: MIT + file LICENSE
-Depends:
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+Imports:  
     ggpubr,
     dplyr,
     ggplot2,
@@ -42,9 +45,6 @@ Depends:
     knitr,
     rmarkdown,
     tidyverse
-Encoding: UTF-8
-LazyData: true
-Roxygen: list(markdown = TRUE)
 Suggests: 
     devtools,
     git2r
