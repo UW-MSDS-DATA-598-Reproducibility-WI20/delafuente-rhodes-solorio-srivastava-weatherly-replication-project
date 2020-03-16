@@ -21,7 +21,7 @@ library(tidyverse)
 library(ggplot2)
 library(dplyr)
 library(ggpubr)
-data <- read.csv(file = "../DATA/electionday_tweets_clean.csv")
+data <- read.csv(file = "../Data/electionday_tweets_clean.csv")
 ```
 
 ```{r}
